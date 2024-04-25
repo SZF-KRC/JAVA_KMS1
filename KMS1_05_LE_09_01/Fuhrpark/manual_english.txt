@@ -1,0 +1,51 @@
+### User Manual for Vehicle Management System
+
+#### Getting Started
+This manual provides guidelines on how to interact with the Vehicle Management System, a Java application that allows you to manage various types of vehicles such as cars, trucks, motorcycles, and bicycles. The application operates through a command-line interface, offering a range of functionalities to add, delete, refuel, update mileage, and display vehicle details.
+
+#### Navigating the Menu
+When you start the application, you will be presented with the main menu, which offers the following options:
+1. **Car Manager**
+2. **Truck Manager**
+3. **Motorcycle Manager**
+4. **Bicycle Manager**
+5. **Exit Program**
+
+Enter the number corresponding to your choice to navigate to the specific vehicle management section.
+
+#### Managing Vehicles
+Each vehicle type manager (Car, Truck, Motorcycle, Bicycle) has its own submenu with the following options:
+1. **Add [Vehicle Type]**: Add a new vehicle to the system.
+2. **Delete [Vehicle Type]**: Remove an existing vehicle from the system.
+3. **Add Fuel**: Add fuel to a vehicle (not applicable to bicycles with manual power).
+4. **Add Km**: Update the mileage for a vehicle.
+5. **Show [Vehicle Type]s**: Display all vehicles of a specific type.
+0. **Back to Main Menu**: Return to the main menu.
+
+##### Adding a Vehicle
+To add a vehicle, select the 'Add [Vehicle Type]' option and enter the required details:
+- Brand
+- Model
+- Kilometers (km)
+- Color
+- Weight
+- Fuel Type (e.g., petrol, diesel, electric, manual)
+- Additional attributes specific to the vehicle type (e.g., fuel level, seats for cars; load capacity for trucks; power for motorcycles; gears for bicycles)
+
+##### Deleting a Vehicle
+To delete a vehicle, choose the 'Delete [Vehicle Type]' option. You will be prompted to select a vehicle from the list by entering its index.
+
+##### Refueling a Vehicle
+Select 'Add Fuel' to enter the amount of fuel to add. Note that this is applicable only to vehicles that use fuel.
+
+##### Updating Mileage
+Select 'Add Km' to enter the new kilometers driven by the vehicle, updating its mileage.
+
+##### Viewing Vehicles
+Choosing 'Show [Vehicle Type]s' will display a list of all vehicles of that type currently managed within the system.
+
+#### Exiting the Program
+To exit the program, return to the main menu and select 'Exit Program'. This will safely close the application.
+
+#### Conclusion
+By following these steps, you can effectively manage a diverse fleet of vehicles using the Vehicle Management System. This system is designed to be intuitive and user-friendly, ensuring a smooth management process for various vehicle types.

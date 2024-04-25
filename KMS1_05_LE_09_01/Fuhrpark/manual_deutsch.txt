@@ -1,0 +1,51 @@
+### Benutzerhandbuch für das Fahrzeugverwaltungssystem
+
+#### Erste Schritte
+Dieses Handbuch bietet Anleitungen zur Interaktion mit dem Fahrzeugverwaltungssystem, einer Java-Anwendung, die es Ihnen ermöglicht, verschiedene Fahrzeugtypen wie Autos, Lastwagen, Motorräder und Fahrräder zu verwalten. Die Anwendung wird über eine Befehlszeilenoberfläche bedient und bietet eine Reihe von Funktionen zum Hinzufügen, Löschen, Auftanken, Aktualisieren der Kilometerleistung und Anzeigen von Fahrzeugdetails.
+
+#### Navigieren im Menü
+Wenn Sie die Anwendung starten, wird Ihnen das Hauptmenü angezeigt, das folgende Optionen bietet:
+1. **Autoverwaltung**
+2. **Lkw-Verwaltung**
+3. **Motorradverwaltung**
+4. **Fahrradverwaltung**
+5. **Programm beenden**
+
+Geben Sie die Nummer Ihrer Wahl ein, um zum spezifischen Fahrzeugverwaltungsbereich zu navigieren.
+
+#### Fahrzeuge verwalten
+Jeder Fahrzeugtyp-Manager (Auto, Lkw, Motorrad, Fahrrad) hat sein eigenes Untermenü mit den folgenden Optionen:
+1. **[Fahrzeugtyp] hinzufügen**: Fügen Sie ein neues Fahrzeug dem System hinzu.
+2. **[Fahrzeugtyp] löschen**: Entfernen Sie ein vorhandenes Fahrzeug aus dem System.
+3. **Kraftstoff hinzufügen**: Fügen Sie einem Fahrzeug Kraftstoff hinzu (nicht anwendbar auf Fahrräder mit manueller Kraft).
+4. **Kilometer hinzufügen**: Aktualisieren Sie die gefahrenen Kilometer eines Fahrzeugs.
+5. **[Fahrzeugtyp] anzeigen**: Zeigen Sie alle Fahrzeuge eines bestimmten Typs an.
+0. **Zurück zum Hauptmenü**: Kehren Sie zum Hauptmenü zurück.
+
+##### Ein Fahrzeug hinzufügen
+Um ein Fahrzeug hinzuzufügen, wählen Sie die Option '[Fahrzeugtyp] hinzufügen' und geben Sie die erforderlichen Details ein:
+- Marke
+- Modell
+- Kilometerstand (km)
+- Farbe
+- Gewicht
+- Kraftstoffart (z.B. Benzin, Diesel, Elektro, manuell)
+- Zusätzliche Attribute, die spezifisch für den Fahrzeugtyp sind (z.B. Kraftstoffstand, Sitze für Autos; Ladekapazität für Lastwagen; Leistung für Motorräder; Gänge für Fahrräder)
+
+##### Ein Fahrzeug löschen
+Um ein Fahrzeug zu löschen, wählen Sie die Option '[Fahrzeugtyp] löschen'. Sie werden aufgefordert, ein Fahrzeug aus der Liste durch Eingabe seines Index zu wählen.
+
+##### Ein Fahrzeug betanken
+Wählen Sie 'Kraftstoff hinzufügen', um die Menge des hinzuzufügenden Kraftstoffs einzugeben. Beachten Sie, dass dies nur für Fahrzeuge gilt, die Kraftstoff verwenden.
+
+##### Kilometerstand aktualisieren
+Wählen Sie 'Kilometer hinzufügen', um die neuen, vom Fahrzeug gefahrenen Kilometer einzugeben und den Kilometerstand zu aktualisieren.
+
+##### Fahrzeuge anzeigen
+Die Auswahl von '[Fahrzeugtyp] anzeigen' zeigt eine Liste aller Fahrzeuge dieses Typs an, die derzeit im System verwaltet werden.
+
+#### Das Programm beenden
+Um das Programm zu beenden, kehren Sie zum Hauptmenü zurück und wählen 'Programm beenden'. Dies schließt die Anwendung sicher.
+
+#### Schlussfolgerung
+Indem Sie diesen Schritten folgen, können Sie eine vielfältige Flotte von Fahrzeugen effektiv mit dem Fahrzeugverwaltungssystem verwalten. Dieses System ist so konzipiert, dass es intuitiv und benutzerfreundlich ist, um einen reibungslosen Verwaltungsprozess für verschiedene Fahrzeugtypen zu gewährleisten.
