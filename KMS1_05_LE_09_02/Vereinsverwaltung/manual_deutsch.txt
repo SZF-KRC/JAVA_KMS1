@@ -1,0 +1,157 @@
+## Benutzerhandbuch für das Football Manager-Programm
+
+Willkommen beim Football Manager-Programm! Dieses Handbuch führt Sie durch die Schritte,
+um die Anwendung effektiv zur Verwaltung von Fußballclubs, Teams, Spielern und Trainern zu nutzen. 
+Befolgen Sie diese Anweisungen, um durch das Programm zu navigieren und seine Funktionen optimal zu nutzen.
+
+### Navigation im Hauptmenü
+Beim Starten des Programms werden Sie mit dem Hauptmenü begrüßt. So navigieren Sie darin:
+
+```
+Willkommen beim Football Manager
+[1] Club
+[2] Team
+[3] Spieler
+[4] Trainer
+[0] Programm beenden
+Geben Sie den Index Ihrer Wahl ein:
+```
+
+- **Geben Sie die Nummer entsprechend Ihrer Wahl ein** und drücken Sie die Eingabetaste.
+
+### Verwaltung von Clubs
+1. **Einen Club hinzufügen:**
+   - Wählen Sie `[1] Club` aus dem Hauptmenü.
+   - Wählen Sie die Option, um einen Club hinzuzufügen, und geben Sie dann den Namen und das Gründungsjahr wie aufgefordert ein.
+
+2. **Clubs anzeigen:**
+   - Wählen Sie aus dem Club-Menü die Option, um vorhandene Clubs anzusehen.
+
+3. **Clubdetails modifizieren:**
+   - Sie können auch Clubdetails aus dem Club-Untermenü löschen oder bearbeiten.
+
+### Verwaltung von Teams
+1. **Ein Team erstellen:**
+   - Navigieren Sie zu `[2] Team` im Hauptmenü.
+   - Wählen Sie die Option, um ein Team hinzuzufügen, wählen Sie einen Club aus der Liste und geben Sie einen Namen für das neue Team an.
+
+2. **Teams ansehen und bearbeiten:**
+   - Um Teamdetails wie das Hinzufügen oder Entfernen von Spielern oder Trainern zu sehen oder zu modifizieren, verwenden Sie die Optionen im Team-Untermenü.
+
+### Verwaltung von Spielern
+1. **Spieler hinzufügen:**
+   - Gehen Sie zu `[3] Spieler` im Hauptmenü.
+   - Sie können einen Spieler zur freien Liste hinzufügen oder direkt einem Team in einem bestimmten Club zuweisen.
+
+2. **Spieler übertragen:**
+   - Verwenden Sie die Transferoptionen, um Spieler zwischen Teams oder Clubs zu verschieben.
+
+3. **Spieler ansehen und löschen:**
+   - Sie können alle Spieler in einem bestimmten Team ansehen oder bei Bedarf über das Spieler-Untermenü löschen.
+
+### Verwaltung von Trainern
+1. **Trainer hinzufügen:**
+   - Wählen Sie `[4] Trainer` aus dem Hauptmenü.
+   - Trainer können zur freien Liste hinzugefügt oder direkt einem Team innerhalb eines Clubs zugewiesen werden.
+
+2. **Trainer übertragen:**
+   - Ähnlich wie bei Spielern können Trainer zwischen Teams oder Clubs verschoben werden.
+
+3. **Trainer ansehen und entfernen:**
+   - Verwenden Sie das Trainer-Untermenü, um die Details von Trainern zu verwalten.
+
+### Programm beenden
+- Um das Programm zu beenden, wählen Sie `[0] Programm beenden` aus einem beliebigen Hauptmenü. Bestätigen Sie bei Aufforderung, um die Anwendung sicher zu schließen.
+
+
+
+## Dieser Abschnitt bietet schrittweise Anleitungen zur Verwendung der `addMenu`, `deleteMenu`, `showMenu` und `transferMenu` im Football Manager-Programm. 
+Diese Untermenüs ermöglichen es Ihnen, Entitäten wie Clubs, Teams, Spieler und Trainer hinzuzufügen, zu löschen, anzuzeigen und zu übertragen.
+
+### Hinzufügen-Menü (Add Menu)
+Verwenden Sie das `addMenu`, um neue Entitäten zu Ihrem Fußballmanagementsystem hinzuzufügen.
+
+#### Hinzufügen von Clubs, Teams, Spielern und Trainern
+1. **Zugriff auf das Add Menu:**
+   - Navigieren Sie im Hauptmenü zu der spezifischen Entität, die Sie hinzufügen möchten (Club, Team, Spieler, Trainer).
+   - Wählen Sie die Option `[1] add` gefolgt von dem Entitätstyp.
+
+2. **Einen Club hinzufügen:**
+   - Geben Sie den Namen und das Gründungsjahr ein, wie aufgefordert.
+
+3. **Ein Team hinzufügen:**
+   - Wählen Sie einen Club aus der Liste, zu dem das Team hinzugefügt werden soll.
+   - Geben Sie den Namen des neuen Teams ein.
+
+4. **Einen Spieler hinzufügen:**
+   - Entscheiden Sie, ob Sie einen freien Spieler hinzufügen oder einem bestimmten Club hinzufügen möchten.
+   - Geben Sie den Namen und die Position des Spielers ein.
+
+5. **Einen Trainer hinzufügen:**
+   - Ähnlich wie beim Hinzufügen eines Spielers, wählen Sie, ob Sie einen freien Trainer hinzufügen oder einem bestimmten Team innerhalb eines Clubs zuweisen möchten.
+   - Geben Sie den Namen des Trainers an.
+
+### Löschen-Menü (Delete Menu)
+Verwenden Sie das `deleteMenu`, um vorhandene Entitäten aus dem System zu entfernen.
+
+#### Löschen von Clubs, Teams, Spielern und Trainern
+1. **Zugriff auf das Delete Menu:**
+   - Wählen Sie im Hauptmenü den Entitätstyp aus, den Sie löschen möchten (Club, Team, Spieler, Trainer).
+   - Wählen Sie die Option `[2] delete` gefolgt von dem Entitätstyp.
+
+2. **Einen Club löschen:**
+   - Wählen Sie den Index des Clubs aus der bereitgestellten Liste und bestätigen Sie die Löschung.
+
+3. **Ein Team löschen:**
+   - Wählen Sie zuerst den Club aus, aus dem das Team gelöscht werden soll.
+   - Wählen Sie dann den Teamindex und bestätigen Sie die Löschung.
+
+4. **Einen Spieler löschen:**
+   - Entscheiden Sie, ob Sie einen freien Spieler oder einen aus einem bestimmten Team löschen möchten.
+   - Wählen Sie den Spielerindex und bestätigen Sie die Löschung.
+
+5. **Einen Trainer löschen:**
+   - Ähnlich wie beim Löschen eines Spielers, wählen Sie, ob Sie einen freien Trainer löschen oder aus einem Team entfernen möchten, dann bestätigen.
+
+### Anzeigen-Menü (Show Menu)
+Verwenden Sie das `showMenu`, um Details über die Entitäten im System anzuzeigen.
+
+#### Anzeigen von Clubs, Teams, Spielern und Trainern
+1. **Zugriff auf das Show Menu:**
+   - Wählen Sie im Hauptmenü den Entitätstyp aus, den Sie anzeigen möchten (Club, Team, Spieler, Trainer).
+   - Wählen Sie die Option `[4] show` gefolgt von dem Entitätstyp.
+
+2. **Clubs anzeigen:**
+   - Wählen Sie einfach die Option unter Clubs, um eine Liste aller Clubs zu sehen.
+
+3. **Teams anzeigen:**
+   - Wählen Sie zuerst einen Club, um dessen Teams anzuzeigen.
+
+4. **Spieler anzeigen:**
+   - Wählen Sie, ob Sie freie Spieler oder solche in einem bestimmten Club und Team anzeigen möchten.
+
+5. **Trainer anzeigen:**
+   - Ähnlich wie beim Anzeigen von Spielern, wählen Sie, ob Sie freie Trainer oder solche, die einem bestimmten Team zugewiesen sind, anzeigen möchten.
+
+### Transfer-Menü (Transfer Menu)
+Verwenden Sie das `transferMenu`, um Spieler oder Trainer zwischen Teams oder Clubs zu verschieben.
+
+#### Übertragen von Spielern und Trainern
+1. **Z
+
+ugriff auf das Transfer Menu:**
+   - Wählen Sie im Hauptmenü den Entitätstyp für den Transfer aus (Spieler, Trainer).
+   - Wählen Sie die Option `[3] transfer` gefolgt von dem Entitätstyp.
+
+2. **Spieler übertragen:**
+   - Wählen Sie, ob Sie einen Spieler zwischen Clubs übertragen oder von der freien Liste zu einem Club hinzufügen möchten.
+   - Folgen Sie den Aufforderungen, um den alten Club/Team, den Spieler und den neuen Club/Team auszuwählen.
+
+3. **Trainer übertragen:**
+   - Ähnlicher Prozess wie bei Spielern, aber mit Trainern.
+
+Durch Befolgen dieser Anweisungen können Sie alle Aspekte Ihrer Fußballentitäten effektiv verwalten, 
+indem Sie das Football Manager-Programm verwenden. Dieses Handbuch stellt sicher, 
+dass Sie alle notwendigen Informationen haben, um durch die verschiedenen Menüs 
+zu navigieren und Operationen reibungslos durchzuführen.
+

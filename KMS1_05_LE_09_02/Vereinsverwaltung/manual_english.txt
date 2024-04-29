@@ -1,0 +1,151 @@
+## User Manual for Football Manager Program
+
+Welcome to the Football Manager Program! This manual will guide you through the steps to effectively use the application to manage football clubs, teams, players, and trainers. 
+Follow these instructions to navigate through the program and make the most of its features.
+
+
+### Main Menu Navigation
+Upon starting the program, you will be greeted with the main menu. Here's how to navigate it:
+
+```
+Welcome in Football Manager
+[1] Club
+[2] Team
+[3] Player
+[4] Trainer
+[0] Exit program
+Enter index of your choice:
+```
+
+- **Enter the number corresponding to your choice** and press Enter.
+
+### Managing Clubs
+1. **Adding a Club:**
+   - Select `[1] Club` from the main menu.
+   - Choose the option to add a club, then enter the name and year of establishment as prompted.
+
+2. **Viewing Clubs:**
+   - From the Club menu, select the option to view existing clubs.
+
+3. **Modifying Club Details:**
+   - You can also delete or edit club details from the Club submenu.
+
+### Managing Teams
+1. **Creating a Team:**
+   - Navigate to `[2] Team` in the main menu.
+   - Select the option to add a team, choose a club from the list, and provide a name for the new team.
+
+2. **Viewing and Editing Teams:**
+   - To view or modify team details such as adding or removing players or trainers, use the options provided in the Team submenu.
+
+### Managing Players
+1. **Adding Players:**
+   - Go to `[3] Player` in the main menu.
+   - You can add a player to the free list or directly to a team in a specific club.
+
+2. **Transferring Players:**
+   - Use the transfer options to move players between teams or clubs.
+
+3. **Viewing and Deleting Players:**
+   - You can view all players in a particular team or delete them as needed through the Player submenu.
+
+### Managing Trainers
+1. **Adding Trainers:**
+   - Select `[4] Trainer` from the main menu.
+   - Trainers can be added to the free list or directly assigned to a team within a club.
+
+2. **Transferring Trainers:**
+   - Similar to players, trainers can be moved between teams or clubs.
+
+3. **Viewing and Removing Trainers:**
+   - Use the Trainer submenu to manage the details of trainers.
+
+### Exiting the Program
+- To exit the program, select `[0] Exit program` from any main menu. Confirm when prompted to safely close the application.
+
+
+## Submenus in the Football Manager Program:`addMenu`, `deleteMenu`, `showMenu`, and `transferMenu`. 
+These submenus allow you to add, delete, display, and transfer entities such as clubs, teams, players, and trainers.
+
+### Add Menu
+Use the `addMenu` to add new entities to your football management system.
+
+#### Adding Clubs, Teams, Players, and Trainers
+1. **Accessing the Add Menu:**
+   - From the main menu, navigate to the specific entity you wish to add (Club, Team, Player, Trainer).
+   - Choose the option `[1] add` followed by the entity type.
+
+2. **Adding a Club:**
+   - Enter the name and the year of establishment as prompted.
+
+3. **Adding a Team:**
+   - Select a club from the list to which the team will be added.
+   - Enter the name of the new team.
+
+4. **Adding a Player:**
+   - Choose to add a free player or to a specific club.
+   - Enter the player's name and position.
+
+5. **Adding a Trainer:**
+   - Similar to adding a player, select to add a free trainer or to a specific team within a club.
+   - Provide the trainer's name.
+
+### Delete Menu
+Use the `deleteMenu` to remove existing entities from the system.
+
+#### Deleting Clubs, Teams, Players, and Trainers
+1. **Accessing the Delete Menu:**
+   - From the main menu, select the entity type you wish to delete (Club, Team, Player, Trainer).
+   - Choose the option `[2] delete` followed by the entity type.
+
+2. **Deleting a Club:**
+   - Select the club index from the list provided and confirm deletion.
+
+3. **Deleting a Team:**
+   - First, select the club from which the team will be deleted.
+   - Then, choose the team index and confirm deletion.
+
+4. **Deleting a Player:**
+   - Decide whether to delete a free player or one from a specific team.
+   - Select the player index and confirm deletion.
+
+5. **Deleting a Trainer:**
+   - Similar to deleting a player, choose to delete a free trainer or from a team, then confirm.
+
+### Show Menu
+Use the `showMenu` to view details about the entities within the system.
+
+#### Viewing Clubs, Teams, Players, and Trainers
+1. **Accessing the Show Menu:**
+   - From the main menu, select the entity type you wish to view (Club, Team, Player, Trainer).
+   - Choose the option `[4] show` followed by the entity type.
+
+2. **Viewing Clubs:**
+   - Simply select the show option under clubs to see a list of all clubs.
+
+3. **Viewing Teams:**
+   - First, select a club to view its teams.
+
+4. **Viewing Players:**
+   - Choose to view free players or those in a specific club and team.
+
+5. **Viewing Trainers:**
+   - Similar to viewing players, select to view free trainers or those assigned to a specific team.
+
+### Transfer Menu
+Use the `transferMenu` to move players or trainers between teams or clubs.
+
+#### Transferring Players and Trainers
+1. **Accessing the Transfer Menu:**
+   - From the main menu, select the entity type for transfer (Player, Trainer).
+   - Choose the option `[3] transfer` followed by the entity type.
+
+2. **Transferring Players:**
+   - Choose to transfer a player between clubs or from the free list to a club.
+   - Follow the prompts to select the old club/team, the player, and the new club/team.
+
+3. **Transferring Trainers:**
+   - Similar process as transferring players, but with trainers.
+
+By following these instructions, you can effectively manage all aspects of your football entities using the Football Manager Program. 
+This manual ensures you have all the information needed to navigate through the various menus and perform operations smoothly.
