@@ -1,0 +1,68 @@
+Welcome to the Bank Management System User Manual. This guide will help you navigate and utilize the features of the Bank Management System effectively. Follow the steps below to manage clients, accounts, and perform transactions.
+
+### Starting the Program
+1. **Launch Application:**
+   - Execute the compiled Java program by running the Main class. This can typically be done from your command line interface or through your integrated development environment (IDE).
+
+### Main Menu Navigation
+Once the program starts, you will be presented with the main menu. You have the following options:
+
+```
+Bank Fohnsdorf
+[1] Staff section
+[2] Client section
+[0] Exit program
+Enter the index of your choice:
+```
+
+- **Enter the number corresponding to your choice** and press Enter to navigate.
+
+### Managing Clients
+#### Adding a Client:
+1. Navigate to the Staff section by selecting `[1] Staff section`.
+2. Select `[1] Add new Client`.
+3. You will be prompted to enter the first name and surname of the client. After entering this information, the system will automatically generate a unique client ID and account number for the new client.
+4. Confirm the addition, and the system will display a confirmation message with the client's ID and account number.
+
+#### Deleting a Client:
+1. From the Staff section, choose `[2] Delete Client`.
+2. The system will display a list of all clients. Enter the index of the client you wish to delete.
+3. Confirm the deletion.
+
+### Managing Accounts
+#### Showing Account Details:
+1. In the Staff section, select `[3] Show account`.
+2. Enter the account index as prompted to view details of a specific account.
+
+#### Viewing All Accounts:
+1. From the Staff section, select `[4] Show all accounts` to display a list of all accounts and their details, including client names, account numbers, and balances.
+
+### Client Operations
+#### Accessing Client Services:
+1. From the Main Menu, select `[2] Client section`.
+2. You will be asked to verify your identity by entering your account number and client ID.
+3. Once verified, you will enter the client-specific menu where you can perform transactions on your account.
+
+### Performing Transactions
+#### Making a Deposit:
+1. In the Client menu, select `[1] Deposit`.
+2. Enter the amount you wish to deposit.
+3. Confirm the transaction, and the system will update the account balance accordingly.
+
+#### Making a Withdrawal:
+1. Select `[2] Withdraw` from the Client menu.
+2. Enter the amount you wish to withdraw. Note that you can only withdraw if sufficient funds are available.
+3. Confirm the transaction to update the account balance.
+
+#### Checking Account Balance:
+1. Choose `[3] Show account` in the Client menu to view the current balance and other account details.
+
+### Exiting the Program
+- To exit the program, choose `[0] Exit program` from the Main Menu. Confirm when prompted to safely close the application.
+
+### Additional Tips
+- Use the back option `[0] Back` to return to the previous menu at any point.
+- Ensure that all inputs are accurate to avoid errors during processing.
+- The system handles errors gracefully, guiding you back to correct any input mistakes without crashing.
+
+This manual should provide you with all the necessary information to navigate and use the Bank Management System efficiently. Enjoy managing your banking needs with ease!

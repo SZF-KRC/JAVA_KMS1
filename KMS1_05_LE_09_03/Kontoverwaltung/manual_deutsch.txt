@@ -1,0 +1,70 @@
+Willkommen beim Benutzerhandbuch für das Bankverwaltungssystem. Diese Anleitung hilft Ihnen, die Funktionen des Bankverwaltungssystems effektiv zu navigieren und zu nutzen. Folgen Sie den unten aufgeführten Schritten, um Kunden zu verwalten, Konten zu führen und Transaktionen durchzuführen.
+
+### Programmstart
+1. **Anwendung starten:**
+   - Führen Sie das kompilierte Java-Programm aus, indem Sie die Main-Klasse ausführen. Dies kann in der Regel über Ihre Befehlszeilenschnittstelle oder durch Ihre integrierte Entwicklungsumgebung (IDE) geschehen.
+
+### Navigation im Hauptmenü
+Nach dem Start des Programms wird Ihnen das Hauptmenü angezeigt. Sie haben folgende Optionen:
+
+```
+Bank Fohnsdorf
+[1] Staff section (Mitarbeiterbereich)
+[2] Client section (Kundenbereich)
+[0] Exit program (Programm beenden)
+Enter the index of your choice (Geben Sie den Index Ihrer Wahl ein):
+```
+
+- **Geben Sie die Zahl entsprechend Ihrer Wahl ein** und drücken Sie die Eingabetaste, um zu navigieren.
+
+### Kundenverwaltung
+#### Einen Kunden hinzufügen:
+1. Navigieren Sie zum Mitarbeiterbereich, indem Sie `[1] Staff section` auswählen.
+2. Wählen Sie `[1] Add new Client` (Neuen Kunden hinzufügen).
+3. Ihnen wird aufgefordert, den Vornamen und Nachnamen des Kunden einzugeben. Nach Eingabe dieser Informationen generiert das System automatisch eine eindeutige Kunden-ID und Kontonummer für den neuen Kunden.
+4. Bestätigen Sie die Hinzufügung, und das System zeigt eine Bestätigungsnachricht mit der Kunden-ID und Kontonummer an.
+
+#### Einen Kunden löschen:
+1. Wählen Sie im Mitarbeiterbereich `[2] Delete Client` (Kunden löschen).
+2. Das System zeigt eine Liste aller Kunden an. Geben Sie den Index des Kunden ein, den Sie löschen möchten.
+3. Bestätigen Sie die Löschung.
+
+### Kontoverwaltung
+#### Kontodetails anzeigen:
+1. Im Mitarbeiterbereich wählen Sie `[3] Show account` (Konto anzeigen).
+2. Geben Sie den Kontenindex wie aufgefordert ein, um Details eines bestimmten Kontos anzuzeigen.
+
+#### Alle Konten anzeigen:
+1. Wählen Sie im Mitarbeiterbereich `[4] Show all accounts` (Alle Konten anzeigen), um eine Liste aller Konten und deren Details, einschließlich Kundennamen, Kontonummern und Salden, anzuzeigen.
+
+### Kundenoperationen
+#### Zugang zu Kundendiensten:
+1. Wählen Sie im Hauptmenü `[2] Client section` (Kundenbereich).
+2. Sie werden aufgefordert, Ihre Identität zu bestätigen, indem Sie Ihre Kontonummer und Kunden-ID eingeben.
+3. Nach der Überprüfung gelangen Sie in das kundenspezifische Menü, in dem Sie Transaktionen auf Ihrem Konto durchführen können.
+
+### Durchführung von Transaktionen
+#### Eine Einzahlung machen:
+1. Wählen Sie im Kundenmenü `[1] Deposit` (Einzahlung).
+2. Geben Sie den Betrag ein, den Sie einzahlen möchten.
+3. Bestätigen Sie die Transaktion, und das System aktualisiert den Kontostand entsprechend.
+
+#### Eine Abhebung machen:
+1. Wählen Sie `[2] Withdraw` (Abhebung) aus dem Kundenmenü.
+2. Geben Sie den Betrag ein, den Sie abheben möchten. Beachten Sie, dass Sie nur abheben können, wenn ausreichend Mittel verfügbar sind.
+3. Bestätigen Sie die Transaktion, um den Kontostand zu aktualisieren.
+
+#### Kontostand prüfen:
+1. Wählen Sie im Kundenmenü `[3] Show account` (Konto anzeigen), um den aktuellen Saldo und andere Kontodetails anzusehen.
+
+### Programm beenden
+- Um das Programm zu beenden, wählen Sie `[0] Exit program` (Programm beenden) aus dem Hauptmenü. Bestätigen Sie die Aufforderung, um die Anwendung sicher zu schließen.
+
+### Zusätzliche Tipps
+- Verwenden Sie die Option `[0] Back` (Zurück), um jederzeit zum vorherigen Menü zurückzukehren.
+- Stellen Sie sicher, dass alle Eing
+
+aben korrekt sind, um Fehler bei der Verarbeitung zu vermeiden.
+- Das System behandelt Fehler sorgfältig, indem es Sie auffordert, eventuelle Eingabefehler zu korrigieren, ohne abzustürzen.
+
+Dieses Handbuch sollte Ihnen alle notwendigen Informationen bieten, um das Bankverwaltungssystem effizient zu navigieren und zu verwenden. Genießen Sie die einfache Verwaltung Ihrer Bankgeschäfte!
