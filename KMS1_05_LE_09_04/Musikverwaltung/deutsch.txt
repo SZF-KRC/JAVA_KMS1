@@ -1,0 +1,99 @@
+#### Hauptmenü
+
+Das Hauptmenü ist der Ausgangspunkt, von dem aus Sie zu den verschiedenen Funktionen des Programms navigieren können. Hier können Sie Ihre Musikalben verwalten, einzelne Tracks bearbeiten, auf das Benutzerhandbuch zugreifen oder das Programm sicher beenden.
+
+**Optionen im Hauptmenü:**
+1. **Album Management**: Navigieren Sie zum Bereich der Albumverwaltung.
+2. **Track Management**: Verwalten Sie die einzelnen Tracks in Ihren Alben.
+3. **Manual**: Greifen Sie auf das Benutzerhandbuch in verschiedenen Sprachen zu.
+4. **Exit Program**: Beenden Sie das Programm sicher und speichern Sie alle Daten.
+
+Wählen Sie eine Option, indem Sie die entsprechende Nummer eingeben und die Eingabetaste drücken.
+
+#### Albumverwaltung
+
+In der Albumverwaltung können Sie alle Aufgaben bezüglich Ihrer Alben ausführen. Dieser Bereich ermöglicht es Ihnen, Alben hinzuzufügen, zu löschen, anzuzeigen und zu bearbeiten.
+
+- **Neues Album hinzufügen**
+  - **Aktion**: Wählen Sie „Add New Album“, um den Prozess des Hinzufügens eines neuen Albums zu starten.
+  - **Erforderliche Eingaben**: Sie werden aufgefordert, den Titel des Albums und den Namen des Künstlers einzugeben.
+  - **Bestätigung**: Nach der Eingabe der Details bestätigt das System die Erstellung des Albums und weist ihm eine eindeutige ID zu.
+
+- **Album löschen**
+  - **Aktion**: Wählen Sie „Delete Album“, um ein vorhandenes Album zu entfernen.
+  - **Auswahl**: Geben Sie die Indexnummer des Albums ein, das Sie löschen möchten. Diese Nummer entspricht der Position des Albums in der Liste, die während der Operation „Print All Albums“ angezeigt wird.
+  - **Bestätigung**: Bestätigen Sie Ihre Wahl, um sicherzustellen, dass das richtige Album gelöscht wird.
+
+- **Ein Album anzeigen**
+  - **Aktion**: Wählen Sie diese Option, um detaillierte Informationen über ein bestimmtes Album anzuzeigen.
+  - **Auswahl**: Geben Sie die Indexnummer des Albums ein, das Sie anzeigen möchten. Das Programm zeigt detaillierte Informationen einschließlich aller Tracks im Album.
+
+- **Alle Alben anzeigen**
+  - **Aktion**: Nutzen Sie diese Option, um alle Alben in Ihrer Sammlung aufzulisten.
+  - **Anzeige**: Das Programm zeigt eine Liste aller Alben mit Basisinformationen wie Albumtitel, Künstler und einer kurzen Zusammenfassung der Dauer.
+
+- **Album bearbeiten**
+  - **Aktion**: Wählen Sie „Edit Album“, um die Details eines vorhandenen Albums zu ändern.
+  - **Auswahl**: Geben Sie die Indexnummer des Albums ein, das Sie bearbeiten möchten.
+  - **Details bearbeiten**: Sie werden aufgefordert, den neuen Titel und Künstler für das Album einzugeben. Nach der Eingabe der neuen Details bestätigen Sie Ihre Änderungen, um das Album zu aktualisieren.
+
+#### Tipps zur Verwendung des Menüs zur Albumverwaltung
+
+- **Navigation**: Verwenden Sie immer die numerischen Tasten, um Optionen auszuwählen oder Albumindizes anzugeben. Dies stellt sicher, dass Sie die richtigen Optionen und Alben auswählen.
+- **Genauigkeit**: Geben Sie Informationen präzise ein, da dies beeinflusst, wie Ihre Alben verwaltet und angezeigt werden.
+- **Bestätigungsaufforderungen**: Achten Sie auf Bestätigungsaufforderungen, insbesondere beim Löschen von Alben, um unbeabsichtigten Datenverlust zu vermeiden.
+
+
+#### Track Management Menü
+
+Nachdem Sie "Track Management" im Hauptmenü ausgewählt haben, stehen Ihnen verschiedene Optionen zur Verfügung, um individuelle Tracks innerhalb Ihrer Alben zu verwalten:
+
+**Optionen im Track Management Menü:**
+1. **Add New Track**: Fügen Sie einem bestimmten Album einen neuen Track hinzu.
+2. **Delete Track**: Entfernen Sie einen Track aus einem Album.
+3. **Print One Track**: Zeigen Sie detaillierte Informationen über einen spezifischen Track an.
+4. **Print All Tracks**: Listen Sie Details aller Tracks über alle Alben hinweg auf.
+5. **Edit Track**: Ändern Sie die Details eines vorhandenen Tracks.
+
+Um eine Auswahl zu treffen, geben Sie die Nummer der gewünschten Option ein und folgen Sie den Anweisungen.
+
+#### Einen neuen Track hinzufügen
+
+- **Aktion**: Wählen Sie „Add New Track“, um einen Track zu einem Album hinzuzufügen.
+- **Albenauswahl**: Sie werden aufgefordert, das Album auszuwählen, indem Sie dessen Indexnummer aus der angezeigten Albenliste eingeben.
+- **Trackdetails**: Geben Sie den Titel, den MP3-Dateinamen und die Dauer (in Minuten und Sekunden) des Tracks ein.
+- **Bestätigung**: Bestätigen Sie die Details, um den Track hinzuzufügen. Das System weist dem Track eine eindeutige ID zu und fügt ihn dem spezifizierten Album hinzu.
+
+#### Einen Track löschen
+
+- **Aktion**: Wählen Sie „Delete Track“, um einen Track aus einem Album zu entfernen.
+- **Albenauswahl**: Zuerst wählen Sie das Album aus, aus dem Sie einen Track entfernen möchten, indem Sie dessen Index spezifizieren.
+- **Trackauswahl**: Wählen Sie dann den zu löschenden Track, indem Sie dessen Indexnummer eingeben, wie sie in der Trackliste des Albums angezeigt wird.
+- **Bestätigung**: Sie werden aufgefordert, die Löschung zu bestätigen, um sicherzustellen, dass kein Track versehentlich entfernt wird.
+
+#### Einen einzelnen Track anzeigen
+
+- **Aktion**: Wählen Sie „Print One Track“, um detaillierte Informationen über einen spezifischen Track innerhalb eines Albums anzuzeigen.
+- **Albenauswahl**: Wählen Sie das Album, das den Track enthält, durch Eingabe seiner Indexnummer.
+- **Trackauswahl**: Wählen Sie den Track durch Eingabe seiner Indexnummer innerhalb des ausgewählten Albums.
+- **Anzeige**: Das System zeigt detaillierte Informationen über den Track an, einschließlich seines Titels, der Dauer und des MP3-Dateinamens.
+
+#### Alle Tracks anzeigen
+
+- **Aktion**: Wählen Sie „Print All Tracks“, um jeden Track über alle Alben hinweg aufzulisten.
+- **Anzeige**: Das Programm zeigt eine umfassende Liste aller Tracks an, mit Details wie Titel, Dauer und zugehörigem Album zur einfacheren Referenz.
+
+#### Einen Track bearbeiten
+
+- **Aktion**: Wählen Sie „Edit Track“, um die Details eines vorhandenen Tracks zu aktualisieren.
+- **Albenauswahl**: Wählen Sie das Album, das den zu bearbeitenden Track enthält.
+- **Trackauswahl**: Wählen Sie den Track durch Angabe seiner Indexnummer.
+- **Bearbeitungsdetails**: Sie werden aufgefordert, neue Werte für den Titel, MP3-Dateinamen und die Dauer des Tracks einzugeben.
+- **Bestätigung**: Bestätigen Sie Ihre Änderungen, um sicherzustellen, dass die aktualisierten Details gespeichert werden.
+
+#### Tipps zur Nutzung des Track Management Menüs
+
+- **Präzise Auswahl**: Stellen Sie sicher, dass Sie die Album- und Trackindizes genau auswählen, um Fehlmanipulationen zu vermeiden.
+- **Achtung bei Detailangaben**: Seien Sie sorgfältig beim Eingeben von Trackdetails, insbesondere der Dauer und Dateinamen, um korrekte Wiedergabe und Organisation zu gewährleisten
+- **Bestätigungen nutzen**: Bestätigen Sie stets Ihre Aktionen, insbesondere beim Löschen von Tracks, um Datenverlust zu verhindern.
+

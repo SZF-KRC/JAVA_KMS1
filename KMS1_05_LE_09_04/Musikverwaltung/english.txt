@@ -1,0 +1,95 @@
+**Main Menu Options:**
+1. **Album Management**: Navigate to the album management section for handling all album-related activities.
+2. **Track Management**: Manage the individual tracks within your albums.
+3. **Manual**: Access user manuals in available languages for additional help.
+4. **Exit Program**: Safely exit the program and ensure all data is saved.
+
+To make a selection from the Main Menu, enter the number associated with your choice and press enter.
+
+#### Album Management
+
+The Album Management section is designed to provide you with full control over your album data, allowing you to add, delete, view, and edit album details. Here's how to use each feature:
+
+- **Add New Album**
+  - **Action**: Select "Add New Album" to begin the process of creating a new album.
+  - **Inputs Required**: You will be prompted to enter the title of the album and the name of the artist. Enter each detail as requested.
+  - **Confirmation**: After entering the details, the system will generate a unique album ID and confirm that the album has been created.
+
+- **Delete Album**
+  - **Action**: Choose "Delete Album" to remove an existing album.
+  - **Selection**: You will be asked to enter the index number of the album you wish to delete. This number corresponds to the album's position in the list shown during the "Print All Albums" operation.
+  - **Confirmation**: Confirm your choice when prompted to ensure that the correct album is deleted.
+
+- **Print One Album**
+  - **Action**: Select this option to view detailed information about a specific album.
+  - **Selection**: Input the index number of the album you are interested in. The program will display detailed information including the album title, artist, and all tracks within the album.
+
+- **Print All Albums**
+  - **Action**: Use this option to list all albums currently stored in your collection.
+  - **Display**: The program will show a list of all albums with basic information such as album title, artist, and a brief duration summary.
+
+- **Edit Album**
+  - **Action**: Select "Edit Album" to modify the details of an existing album.
+  - **Selection**: Enter the index number of the album you wish to edit.
+  - **Editing Details**: You will be prompted to enter the new title and artist for the album. After entering the new details, confirm your changes to update the album.
+
+#### Tips for Using the Album Management Menu
+
+- **Navigation**: Always use the numeric keys to select options or specify album indices. This ensures that you are selecting the correct options and albums.
+- **Accuracy**: Be precise with the information you enter, as this will affect how your albums are managed and displayed.
+- **Confirmation**: Be mindful of confirmation prompts, especially when deleting albums, to avoid unintentional data loss.
+
+
+#### Track Management Menu
+
+Upon selecting "Track Management" from the Main Menu, you will be presented with several options that allow you to manage individual tracks. Here's how to navigate and utilize each function within this menu:
+
+**Track Management Options:**
+1. **Add New Track**: Insert a new track into a specific album.
+2. **Delete Track**: Remove a track from an album.
+3. **Print One Track**: Display detailed information about a specific track.
+4. **Print All Tracks**: View details of all tracks across all albums.
+5. **Edit Track**: Modify the details of an existing track.
+
+To make a selection, enter the number associated with your choice and follow the prompts.
+
+#### Adding a New Track
+
+- **Action**: Choose "Add New Track" to begin adding a track to an album.
+- **Album Selection**: You will be prompted to select the album by entering its index number from the list of albums displayed.
+- **Track Details**: Enter the title, MP3 file name, and duration (in minutes and seconds) of the track.
+- **Confirmation**: Confirm the details to add the track. The system will assign a unique track ID and add the track to the specified album.
+
+#### Deleting a Track
+
+- **Action**: Select "Delete Track" to remove a track from an album.
+- **Album Selection**: First, choose the album from which you want to remove a track by specifying its index.
+- **Track Selection**: Next, choose the track to delete by entering its index number as displayed in the album's track list.
+- **Confirmation**: You will be asked to confirm the deletion to ensure that no track is accidentally removed.
+
+#### Printing One Track
+
+- **Action**: Choose "Print One Track" to view detailed information about a specific track within an album.
+- **Album Selection**: Select the album containing the track by entering its index.
+- **Track Selection**: Choose the track by entering its index number within the selected album.
+- **Display**: The system will display detailed information about the track, including its title, duration, and MP3 file name.
+
+#### Printing All Tracks
+
+- **Action**: Select "Print All Tracks" to list every track across all albums.
+- **Display**: The program will display a comprehensive list of all tracks, showing their titles, durations, and associated albums for easier reference.
+
+#### Editing a Track
+
+- **Action**: Choose "Edit Track" to update the details of an existing track.
+- **Album Selection**: Select the album that contains the track you wish to edit.
+- **Track Selection**: Choose the track by specifying its index.
+- **Editing Details**: You will be prompted to enter new values for the track's title, MP3 file name, and duration.
+- **Confirmation**: Confirm your changes to ensure the updated details are saved.
+
+#### Tips for Using the Track Management Menu
+
+- **Precision in Selection**: Make sure to accurately select album and track indices to avoid editing or deleting the wrong entries.
+- **Detail Attention**: Be meticulous when entering track details, especially the duration and file names, to ensure tracks play correctly and are properly organized.
+- **Use of Confirmation**: Always confirm your actions, especially when deleting tracks, to prevent data loss.
+
