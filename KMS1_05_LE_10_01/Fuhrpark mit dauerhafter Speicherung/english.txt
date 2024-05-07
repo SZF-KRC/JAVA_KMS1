@@ -1,0 +1,48 @@
+## User Manual for Vehicle Management System
+
+### Introduction
+Welcome to the Vehicle Management System user manual. This manual provides instructions on navigating through the system’s menus and sub-menus. You will learn how to effectively manage vehicles and employees using this Java-based application.
+
+### Main Menu Navigation
+Upon launching the application, you will be greeted with the main menu. This menu serves as your starting point for accessing all the functionality within the system.
+
+#### Main Menu Options
+- **[1] Car Manager**: Access management options for cars.
+- **[2] Truck Manager**: Access management options for trucks.
+- **[3] Motorcycle Manager**: Access management options for motorcycles.
+- **[4] Bicycle Manager**: Access management options for bicycles.
+- **[5] Employee Manager**: Access management options for employees.
+- **[6] Help (Manual)**: View the help manual.
+- **[0] Exit Program**: Exit the application safely.
+
+### Vehicle Management
+Selecting any of the vehicle management options (Car, Truck, Motorcycle, Bicycle) from the main menu will direct you to a specific vehicle management menu. Each vehicle type has a customized menu tailored to its specific needs.
+
+#### Vehicle-Specific Menu Options
+- **[1] Add Vehicle**: Adds a new vehicle to the system. You will be prompted to enter details such as brand, model, km, color, weight, fuel type, etc.
+- **[2] Delete Vehicle**: Removes a vehicle from the system. You will need to specify the vehicle you wish to delete.
+- **[3] Add Fuel**: Allows you to refuel a vehicle. The system will prompt you for the vehicle and the amount of fuel to add.
+- **[4] Add Km**: Update the vehicle's kilometer count. You will be prompted to enter the additional kilometers driven.
+- **[5] Show Vehicles**: Displays a list of all vehicles of that type in the system, with detailed information.
+- **[0] Back to Main Menu**: Returns you to the main menu.
+
+### Employee Management
+Selecting the "Employee Manager" from the main menu brings you to the employee management menu. This menu allows you to handle all aspects of employee data.
+
+#### Employee Management Menu Options
+- **[1] Add Employee**: Register a new employee by providing their name and surname.
+- **[2] Delete Employee**: Remove an employee from the system. You will select the employee to delete based on a list.
+- **[3] Edit Employee**: Modify the details of an existing employee. You will be prompted to select an employee and enter new data.
+- **[4] Show Employees**: Displays a list of all employees with their details.
+- **[0] Back to Main Menu**: Returns you to the main menu.
+
+### Using the Help Manual
+Selecting the "Help (Manual)" option from the main menu provides access to the system’s user manual in digital form. This is useful for on-the-spot guidance.
+
+### Exiting the Program
+To exit the application, select the "Exit Program" option from the main menu. This ensures that all processes are terminated correctly, and your session ends safely.
+
+### Tips for Navigation
+- Use the numbers associated with each menu option to navigate through the system.
+- Always return to the main menu to switch between managing different types of vehicles or to manage employee data.
+- Ensure data is entered correctly to avoid errors during the management process.

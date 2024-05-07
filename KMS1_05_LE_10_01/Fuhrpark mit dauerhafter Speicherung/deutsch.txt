@@ -1,0 +1,48 @@
+## Benutzerhandbuch für das Vehicle Management System
+
+### Einführung
+Willkommen beim Benutzerhandbuch für das Vehicle Management System. Dieses Handbuch bietet Anweisungen zur Navigation durch die Menüs und Untermenüs des Systems. Sie lernen, wie Sie Fahrzeuge und Mitarbeiter effektiv mit dieser auf Java basierenden Anwendung verwalten können.
+
+### Navigation im Hauptmenü
+Beim Starten der Anwendung werden Sie mit dem Hauptmenü begrüßt. Dieses Menü dient als Ausgangspunkt für den Zugriff auf alle Funktionen innerhalb des Systems.
+
+#### Optionen im Hauptmenü
+- **[1] Car Manager**: Zugriff auf Verwaltungsoptionen für Autos.
+- **[2] Truck Manager**: Zugriff auf Verwaltungsoptionen für Lkw.
+- **[3] Motorcycle Manager**: Zugriff auf Verwaltungsoptionen für Motorräder.
+- **[4] Bicycle Manager**: Zugriff auf Verwaltungsoptionen für Fahrräder.
+- **[5] Employee Manager**: Zugriff auf Verwaltungsoptionen für Mitarbeiter.
+- **[6] Help (Manual)**: Anzeigen des Hilfshandbuchs.
+- **[0] Exit Program**: Verlassen der Anwendung auf sichere Weise.
+
+### Fahrzeugverwaltung
+Die Auswahl einer der Fahrzeugverwaltungsoptionen (Car, Truck, Motorcycle, Bicycle) im Hauptmenü führt Sie zu einem spezifischen Menü für die Fahrzeugverwaltung. Jeder Fahrzeugtyp hat ein angepasstes Menü, das auf seine spezifischen Bedürfnisse zugeschnitten ist.
+
+#### Spezifische Menüoptionen für Fahrzeuge
+- **[1] Add Vehicle**: Fügt ein neues Fahrzeug zum System hinzu. Sie werden aufgefordert, Details wie Marke, Modell, km, Farbe, Gewicht, Kraftstoffart usw. einzugeben.
+- **[2] Delete Vehicle**: Entfernt ein Fahrzeug aus dem System. Sie müssen das Fahrzeug angeben, das Sie löschen möchten.
+- **[3] Add Fuel**: Ermöglicht es Ihnen, ein Fahrzeug aufzutanken. Das System fordert Sie auf, das Fahrzeug und die Menge des hinzuzufügenden Kraftstoffs anzugeben.
+- **[4] Add Km**: Aktualisiert den Kilometerstand des Fahrzeugs. Sie werden aufgefordert, die zusätzlich gefahrenen Kilometer einzugeben.
+- **[5] Show Vehicles**: Zeigt eine Liste aller Fahrzeuge dieses Typs im System mit detaillierten Informationen an.
+- **[0] Back to Main Menu**: Bringt Sie zurück zum Hauptmenü.
+
+### Mitarbeiterverwaltung
+Die Auswahl von "Employee Manager" im Hauptmenü führt Sie zum Menü für die Mitarbeiterverwaltung. Dieses Menü ermöglicht es Ihnen, alle Aspekte der Mitarbeiterdaten zu verwalten.
+
+#### Menüoptionen für die Mitarbeiterverwaltung
+- **[1] Add Employee**: Registrieren Sie einen neuen Mitarbeiter, indem Sie seinen Namen und Nachnamen angeben.
+- **[2] Delete Employee**: Entfernen Sie einen Mitarbeiter aus dem System. Sie wählen den zu löschenden Mitarbeiter anhand einer Liste aus.
+- **[3] Edit Employee**: Ändern Sie die Details eines bestehenden Mitarbeiters. Sie werden aufgefordert, einen Mitarbeiter auszuwählen und neue Daten einzugeben.
+- **[4] Show Employees**: Zeigt eine Liste aller Mitarbeiter mit ihren Details an.
+- **[0] Back to Main Menu**: Bringt Sie zurück zum Hauptmenü.
+
+### Verwendung des Hilfshandbuchs
+Die Auswahl von "Help (Manual)" im Hauptmenü bietet Zugang zum Benutzerhandbuch des Systems in digitaler Form. Dies ist nützlich für eine sofortige Anleitung.
+
+### Beenden des Programms
+Um die Anwendung zu verlassen, wählen Sie die Option "Exit Program" im Hauptmenü. Dies stellt sicher, dass alle Prozesse korrekt beendet werden und Ihre Sitzung sicher endet.
+
+### Tipps zur Navigation
+- Verwenden Sie die Zahlen, die jeder Menüoption zugeordnet sind, um durch das System zu navigieren.
+- Kehren Sie immer zum Hauptmenü zurück, um zwischen der Verwaltung verschiedener Fahrzeugtypen oder zur Verwaltung von Mitarbeiterdaten zu wechseln.
+- Stellen Sie sicher, dass Daten korrekt eingegeben werden, um Fehler bei der Verwaltung zu vermeiden.
