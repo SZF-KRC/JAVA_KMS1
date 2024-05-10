@@ -1,0 +1,131 @@
+
+# Fußballmanager
+
+## Übersicht
+
+Diese Java-Anwendung dient als Fußballverwaltungssystem, das die Erstellung, Änderung, Löschung und Verwaltung von Vereinen, Teams, Spielern und Trainern ermöglicht. Das System ist darauf ausgelegt, die Komplexitäten des Fußballmanagements zu bewältigen, einschließlich Teamzuweisungen, Transfers und Datenspeicherung unter Verwendung einer MySQL-Datenbank.
+
+## Funktionen
+
+- Verwalten von Vereinen, Teams, Spielern und Trainern
+- Einfaches Hinzufügen und Entfernen von Entitäten
+- Zuweisung von Spielern und Trainern zu Teams
+- Transfer von Spielern und Trainern zwischen Teams oder in einen freien Pool
+- Persistente Datenspeicherung in einer MySQL-Datenbank
+- Interaktive Befehlszeilenschnittstelle für einfache Navigation und Verwaltung
+
+## Nutzung
+
+Nach dem Start der Fußballmanager-Anwendung gelangen Sie zum Hauptmenü. Die Anwendung ist dafür ausgelegt, über eine Befehlszeilenschnittstelle bedient zu werden, mit der Sie Fußballvereine, Teams, Spieler und Trainer verwalten können. Unten finden Sie eine Übersicht über das Hauptmenü und die durchführbaren Operationen:
+
+### Hauptmenü
+Wenn Sie die Anwendung starten, zeigt das Hauptmenü die folgenden Optionen an:
+```
+*** Willkommen beim Fußballmanager ***
+[1] Verein
+[2] Team
+[3] Spieler
+[4] Trainer
+[5] Handbuch
+[0] Programm beenden
+Geben Sie den Index Ihrer Wahl ein:
+```
+Jede Option führt zu einem spezifischen Untermenü, in dem Sie verwandte Operationen ausführen können. Zur Navigation geben Sie die Nummer Ihrer Wahl ein.
+
+### Vereinsverwaltung
+Im Vereinsmenü können Sie Vereine hinzufügen, löschen, anzeigen oder bearbeiten:
+```
+*** Vereinsmenü ***
+[1] Verein hinzufügen
+[2] Verein löschen
+[3] Verein anzeigen
+[4] Verein bearbeiten
+[0] Zurück zum Hauptmenü
+Geben Sie den Index Ihrer Wahl ein:
+```
+- **Verein hinzufügen**: Geben Sie den Namen und das Gründungsjahr ein, und der Verein wird im System registriert.
+- **Verein löschen**: Entfernen Sie einen bestehenden Verein aus dem System.
+- **Verein anzeigen**: Details aller Vereine anzeigen.
+- **Verein bearbeiten**: Details eines bestehenden Vereins ändern.
+
+### Teamverwaltung
+Dieses Menü ermöglicht es Ihnen, Teams innerhalb eines Vereins zu verwalten:
+```
+*** Teammenü ***
+[1] Team hinzufügen
+[2] Team löschen
+[3] Team anzeigen
+[4] Team bearbeiten
+[0] Zurück zum Hauptmenü
+Geben Sie den Index Ihrer Wahl ein:
+```
+- **Team hinzufügen**: Erstellen Sie ein neues Team unter einem bestimmten Verein.
+- **Team löschen**: Entfernen Sie ein Team aus einem Verein.
+- **Team anzeigen**: Alle Teams unter einem bestimmten Verein auflisten.
+- **Team bearbeiten**: Details eines bestimmten Teams aktualisieren.
+
+### Spielerverwaltung
+Spieler können über dieses Menü verwaltet werden:
+```
+*** Spielermenü ***
+[1] Spieler hinzufügen
+[2] Spieler löschen
+[3] Spieler anzeigen
+[4] Spieler bearbeiten
+[5] Spieler transferieren
+[0] Zurück zum Hauptmenü
+Geben Sie den Index Ihrer Wahl ein:
+```
+- **Spieler hinzufügen**: Registrieren Sie einen neuen Spieler als frei oder für ein Team.
+- **Spieler löschen**: Entfernen Sie einen Spieler aus dem System.
+- **Spieler anzeigen**: Alle Spieler oder nur freie Spieler anzeigen.
+- **Spieler bearbeiten**: Details eines bestehenden Spielers ändern.
+- **Spieler transferieren**: Einen Spieler zwischen Teams oder in den freien Pool verschieben.
+
+### Trainerverwaltung
+Ähnlich wie bei Spielern können Trainer hinzugefügt, entfernt, angezeigt oder bearbeitet werden:
+```
+*** Trainermenü ***
+[1] Trainer hinzufügen
+[2] Trainer löschen
+[3] Trainer anzeigen
+[4] Trainer bearbeiten
+[5] Trainer transferieren
+[0] Zur
+
+ück zum Hauptmenü
+Geben Sie den Index Ihrer Wahl ein:
+```
+- **Trainer hinzufügen**: Listen Sie einen neuen Trainer entweder für ein Team oder als frei.
+- **Trainer löschen**: Löschen Sie einen Trainer aus der Datenbank.
+- **Trainer anzeigen**: Details aller Trainer oder nur der nicht zugewiesenen anzeigen.
+- **Trainer bearbeiten**: Die Einzelheiten eines Trainers ändern.
+- **Trainer transferieren**: Trainer zwischen Teams umsetzen oder als frei einstellen.
+
+### Handbücher
+Die Anwendung bietet auch ein Handbuch zur Orientierung:
+```
+*** Handbuchmenü ***
+[1] Englisch
+[2] Deutsch
+[0] Zurück zum Hauptmenü
+Geben Sie den Index Ihrer Wahl ein:
+```
+Wählen Sie die Sprache des Handbuchs, das Sie einsehen möchten.
+
+### Programm beenden
+Um das Programm zu beenden, wählen Sie `0` im Hauptmenü. Stellen Sie sicher, dass Sie alle Änderungen speichern oder Ihre Operationen abschließen, bevor Sie das Programm beenden, um Datenverlust zu vermeiden.
+
+## Entwicklung
+
+Das Projekt ist in mehrere Pakete strukturiert, um die Codebasis effektiv zu organisieren:
+- `manager.club` für vereinsbezogene Operationen
+- `manager.player` für die Spielerverwaltung
+- `manager.team` für die Teamverwaltung
+- `manager.trainer` für die Trainerverwaltung
+- `manager.database` für Datenbankinteraktionen
+- `manager.menu` für Benutzeroberflächeninteraktionen
+- `manager.function` für universelle Operationen
+
+--- 
+
